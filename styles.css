@@ -1,0 +1,19 @@
+.container {
+    background-color: cornflowerblue;
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+@media body and (max-width: 768px) {
+    nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+} 
+
